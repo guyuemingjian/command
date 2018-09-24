@@ -38,6 +38,11 @@ git reset --hard XXXXX版本号
 git rm README.md
 git commit -m "delete"
 
+//创建分支
+git branch XXX分支名
+//切换分支
+git checkout XXX分支名
+
 
 //关联远程仓库
 git remote add origin https://github.com/guyuemingjian/command.git
@@ -46,5 +51,7 @@ git push -u origin master
 
 //克隆远程库
 git clone 远程库地址
+
+
 
 
