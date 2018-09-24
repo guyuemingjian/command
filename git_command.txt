@@ -15,12 +15,29 @@ cd ...
 echo "# command" >> README.md
 //初始化本地库
 git init
-//添加到版本库 推送文件
+//添加到暂定区 推送文件
 git add README.md
 //提交到版本库 -m 注释
 git commit -m "first commit"
 //查看仓库状态
 git status
+
+
+//提交到暂定区回滚
+git reset HEAD README.md
+//工作区重新拿旧版本
+git checkout -- README.md
+
+//提交到版本库回滚
+//得到要回滚版本号
+git log 
+//回滚
+git reset --hard XXXXX版本号
+
+//本地仓库清空
+git rm README.md
+git commit -m "delete"
+
 
 //关联远程仓库
 git remote add origin https://github.com/guyuemingjian/command.git
