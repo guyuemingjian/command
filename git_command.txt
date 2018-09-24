@@ -1,0 +1,24 @@
+git config --
+
+//生成秘钥
+ssh-keygen -t rsa -C "906656770@qq.com"
+//测试联通
+ssh -T git@github.com
+
+
+//从本地往远程推
+//进入本地目录
+cd ...
+//生成介绍文件
+echo "# command" >> README.md
+//初始化本地库
+git init
+//暂定区添加 推送文件
+git add README.md
+//提交到本地库 -m 注释
+git commit -m "first commit"
+//关联远程仓库
+git remote add origin https://github.com/guyuemingjian/command.git
+//推送到远程
+git push -u origin master
+
