@@ -1,5 +1,9 @@
-jdk下载 https://www.oracle.com/technetwork/java/javase/downloads/index.html
+﻿jdk下载 https://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 JAVA_HOME : D:\Java\jdk-10.0.2
 CLASSPATH : .;%JAVA_HOME%\lib\tools.jar;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\bin;
 path : ;%JAVA_HOME%\bin;
+
+maven:
+M2_HOME : D:\Java\apache-maven-3.5.4
+path : ;%M2_HOME%\bin;
